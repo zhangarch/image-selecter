@@ -51,7 +51,7 @@
                 var input = document.createElement("INPUT");
                 input.type = 'file';
                 input.accept = 'image/png,image/jpeg,image/gif';
-                input.capture = 'camera';
+                //input.capture = 'camera';
                 return input;
             }();
             this.size = _config.size || 500;
